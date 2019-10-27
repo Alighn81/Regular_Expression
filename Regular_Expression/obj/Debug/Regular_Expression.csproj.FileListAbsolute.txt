@@ -1,0 +1,14 @@
+C:\Users\Creepcomp\Desktop\Regular_Expression\Regular_Expression\bin\Debug\Regular_Expression.exe.config
+C:\Users\Creepcomp\Desktop\Regular_Expression\Regular_Expression\bin\Debug\Regular_Expression.exe
+C:\Users\Creepcomp\Desktop\Regular_Expression\Regular_Expression\bin\Debug\Regular_Expression.pdb
+C:\Users\Creepcomp\Desktop\Regular_Expression\Regular_Expression\obj\Debug\Regular_Expression.csprojResolveAssemblyReference.cache
+C:\Users\Creepcomp\Desktop\Regular_Expression\Regular_Expression\obj\Debug\MainWindow.g.cs
+C:\Users\Creepcomp\Desktop\Regular_Expression\Regular_Expression\obj\Debug\App.g.cs
+C:\Users\Creepcomp\Desktop\Regular_Expression\Regular_Expression\obj\Debug\Regular_Expression_MarkupCompile.cache
+C:\Users\Creepcomp\Desktop\Regular_Expression\Regular_Expression\obj\Debug\Regular_Expression_MarkupCompile.lref
+C:\Users\Creepcomp\Desktop\Regular_Expression\Regular_Expression\obj\Debug\MainWindow.baml
+C:\Users\Creepcomp\Desktop\Regular_Expression\Regular_Expression\obj\Debug\Regular_Expression.g.resources
+C:\Users\Creepcomp\Desktop\Regular_Expression\Regular_Expression\obj\Debug\Regular_Expression.Properties.Resources.resources
+C:\Users\Creepcomp\Desktop\Regular_Expression\Regular_Expression\obj\Debug\Regular_Expression.csproj.GenerateResource.Cache
+C:\Users\Creepcomp\Desktop\Regular_Expression\Regular_Expression\obj\Debug\Regular_Expression.exe
+C:\Users\Creepcomp\Desktop\Regular_Expression\Regular_Expression\obj\Debug\Regular_Expression.pdb
