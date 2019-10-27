@@ -28,20 +28,6 @@ namespace Regular_Expression
 
         string matched;
         Regex regex;
-
-        private void txt_regex_LostFocus(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                regex = new Regex(txt_regex.Text);
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Please enter correct Regex!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                throw;
-            }
-        }
-
         private void txt_regex_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (FillMatchedText(txt_text.Text))
@@ -59,6 +45,43 @@ namespace Regular_Expression
             }
             matched = s;
             return true;
+        }
+
+        private void cmb_RegularExpression_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+        }
+
+        private void btn_Add_Click(object sender, RoutedEventArgs e)
+        {
+            cmb_RegularExpression.Items.Add(cmb_RegularExpression.Text);
+        }
+
+        private void btn_Adjust_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                regex = new Regex(cmb_RegularExpression.Text);
+                txt_text.IsEnabled = true;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Wrong Format !!", "Format Error !", MessageBoxButton.OK, MessageBoxImage.Error);
+                txt_text.IsEnabled = false;
+            }
+        }
+
+        private void cmb_RegularExpression_LostFocus(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                regex = new Regex(cmb_RegularExpression.Text);
+                txt_text.IsEnabled = true;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Wrong Format !!", "Format Error !", MessageBoxButton.OK, MessageBoxImage.Error);
+                txt_text.IsEnabled = false;
+            }
         }
     }
 }
